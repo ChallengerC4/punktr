@@ -20,6 +20,11 @@ echo "notes2:";
 print_r($notes2);
 die();
 ?>
+
+
+
+
+
 </pre>
 
 <!-- All html below -->
@@ -34,8 +39,8 @@ die();
             <?php
             for ($i=0;$i<10;$i=$i+1) {
                 ?>
-                <input type="button" value="Button <?php echo $i?>">
-                <?
+                <input type="button" value="Button <?php echo $i; ?>">
+                <?php
             }
             ?>
             <input type="submit" value="I am a button." />
@@ -46,3 +51,19 @@ die();
 <!-- this is out of the server -->
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
